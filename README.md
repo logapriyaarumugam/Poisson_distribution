@@ -26,7 +26,7 @@ The Poisson distribution is the discrete probability distribution of the number 
 
 
 # Program :
-
+```
 import numpy as np
 import math
 import scipy.stats
@@ -66,9 +66,10 @@ if cal_chi2_sq<table_chi2:
     print("The given data can be fitted in poisson Distribution at 1% LOS")
 else:
     print("The given data cannot be fitted in Poisson Distribution at 1% LOS")
- 
+ ```
 
 # Output : 
+```
 1 2 3 4 5 6 7 8 9 10
 X P(X=x) Obs.Fr Exp.Fr xi
 --------------------------
@@ -87,6 +88,7 @@ X P(X=x) Obs.Fr Exp.Fr xi
 Calculated value of Chi square is 5.98
 Table value of chi square at 1 level is 23.21
 The given data can be fitted in poisson Distribution at 1% LOS
+```
 
 
 # Results
